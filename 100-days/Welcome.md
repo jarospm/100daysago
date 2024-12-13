@@ -1,5 +1,10 @@
-This is your new *vault*.
+![[success.svg|100]]
+Hi, I'm Jaros 👋
 
-Make a note of something, [[create a link]], or try [the Importer](https://help.obsidian.md/Plugins/Importer)!
+this digital garden is dedicated to my [[100DaysOfCode]] journey 
+(and perhaps more topics later on🤷🏻‍♂️)
 
-When you're ready, delete this note and make the vault your own.
+I just completed [[Sprint 1; days 1 - 10]], yeay 🙌🏻
+
+---
+*Connect on X: [@jarospm](https://x.com/jarospm)*
