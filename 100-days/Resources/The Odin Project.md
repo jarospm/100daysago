@@ -11,4 +11,4 @@ The curriculum is designed to focus on the essentials, allowing learners to prog
 ---
 
 ## Courses
-[Foundations](https://www.theodinproject.com/paths/foundations/courses/foundations)
+- [Foundations](https://www.theodinproject.com/paths/foundations/courses/foundations)
