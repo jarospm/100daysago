@@ -23,6 +23,6 @@ Actively create and apply knowledge.
 Avoid passive information consumption.
 
 ### Leverage Tools
-Utilize the available resources to enhance efficiency.
+Utilize the available enhancements.
 
-Prioritize speed over writing code line-by-line.
+Two steps forward, one step back.

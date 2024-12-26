@@ -1,4 +1,4 @@
-#concept #programming 
+#technology  #programming 
 
 **Integrated Development Environment (IDE)** is where you write, debug, and test your code.
 ## Topics
