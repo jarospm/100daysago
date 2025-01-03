@@ -4,6 +4,7 @@
 #### Variables
 - declaring variables
 - `let` vs `const` vs `var`
+- initialized vs uninitialized variables
 - assigning and updating values
 - global vs block vs function scope
 #### Data Types
@@ -56,6 +57,7 @@
 - `for` and `for...of` loops
 - `while` and `do...while` loops
 - `break` and `continue` statements
+- off-by-one error
 #### Functions
 - declarations vs expressions
 - invoking (calling) function

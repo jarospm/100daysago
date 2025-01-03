@@ -19,6 +19,14 @@ aliases:
 - pseudocode
 - decomposition
 - iteration vs recursion
+### Universal Concepts
+- Variables / Data
+- Operations
+- Input / Output
+- Branching
+- Looping
+- Functions
+- Aggregation
 
 ## Resources
 - [Web standards - MDN](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Web_standards) articles
@@ -27,5 +35,6 @@ aliases:
 - [How To Think Like A Programmer](https://www.youtube.com/watch?v=azcrPFhaY9k) video
 - [Good Programmer Tips and Tricks](https://www.youtube.com/watch?v=v6hm27o_gLM) video
 - [7 Big Ideas in Programming](https://www.youtube.com/watch?v=y6dS-xX_Nt4) video
+- [100+ Computer Science Concepts Explained](https://www.youtube.com/watch?v=-uleG_Vecis&t=1s) video
 - [Blockly Games](https://blockly.games/?lang=en)
 
