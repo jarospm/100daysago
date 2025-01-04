@@ -1,4 +1,8 @@
 // GAME STATE
+let player = {
+    name: "Lucky",
+    chips: 200
+}
 let cards = []
 let sum = 0
 let hasBlackJack = false
@@ -9,11 +13,14 @@ let message = ""
 const messageEl = document.getElementById("message-el")
 const sumEl = document.getElementById("sum-el")
 const cardsEl = document.getElementById("cards-el")
+const playerEl = document.getElementById("player-el")
+
+playerEl.textContent = player.name + ": $" + player.chips
 
 // GAME MECHANICS
 function getRandomCard() {
     let randomNumber = Math.floor( Math.random() * 13 ) + 1
-    //TODO: fix for Ace to be 1 OR 11
+    //simplification: Ace == 11
     if (randomNumber === 1) {
         return 11
     } else if (randomNumber > 10) {

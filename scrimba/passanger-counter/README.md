@@ -1,4 +1,4 @@
-## Concepts covered
+## Practice topics
 
 ### Script Tag
 - Used to connect JavaScript file to HTML
