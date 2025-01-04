@@ -4,9 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Playground</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+
+        button {
+            padding: 10px 15px;
+            margin: 5px 0;
+            border: none;
+            border-radius: 4px;
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
 </head>
 <body>
-    <script src="looping-triangle.js"></script>
-    <script src="fizz-buzz.js"></script>
+    <p>
+        Available scripts:<br>
+        <button onclick="copyToClipboard('enableScript(\'looping-triangle.js\')')">Copy to enable <b>looping-triangle.js</b></button><br>
+        <button onclick="copyToClipboard('enableScript(\'fizz-buzz.js\')')">Copy to enable <b>fizz-buzz.js</b></button><br>
+        <button onclick="copyToClipboard('enableScript(\'chessboard.js\')')">Copy to enable <b>chessboard.js</b></button>
+    </p>
+    
+    <!-- Helper functions to use via console -->
+    <script>
+        function enableScript(filename) {
+            const scriptElement = document.querySelector(`script[data-src="${filename}"]`);
+            
+            if (!scriptElement) {
+                console.error(`Script ${filename} not found!`);
+                return;
+            }
+            
+            if (scriptElement.getAttribute('data-enabled') === 'true') {
+                console.log(`Script ${filename} is already enabled!`);
+                return;
+            }
+            
+            const newScript = document.createElement('script');
+            newScript.src = scriptElement.getAttribute('data-src');
+            newScript.setAttribute('data-enabled', 'true');
+            document.body.appendChild(newScript);
+            
+            console.log(`Script ${filename} has been enabled!`);
+        }
+
+        function copyToClipboard(text) {
+            navigator.clipboard.writeText(text).then(() => {
+                console.log('Command copied to clipboard!');
+            }).catch(err => {
+                console.error('Failed to copy command:', err);
+            });
+        }
+    </script>
+
+    <!-- Disabled scripts -->
+    <script type="module" data-enabled="false" data-src="looping-triangle.js"></script>
+    <script type="module" data-enabled="false" data-src="fizz-buzz.js"></script>
+    <script type="module" data-enabled="false" data-src="chessboard.js"></script>
 </body>
 </html>
