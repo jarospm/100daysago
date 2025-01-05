@@ -56,3 +56,30 @@ h1 {
     height: 20px;
     line-height: 20px;
 }
+
+.length-container {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.length-container label {
+    color: #D5D4D8;
+    font-size: 16px;
+}
+
+#password-length {
+    background: #273549;
+    border: none;
+    border-radius: 6px;
+    padding: 8px;
+    width: 60px;
+    color: #10B981;
+    font-size: 16px;
+    text-align: center;
+}
+
+#password-length:focus {
+    outline: 1px solid #10B981;
+}
