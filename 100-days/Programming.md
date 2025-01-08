@@ -2,6 +2,42 @@
 aliases:
   - programming
 ---
+## 7 Big Ideas
+Inspired by [7 Big Ideas in Programming](https://www.youtube.com/watch?v=y6dS-xX_Nt4) video
+ 
+- [ ] break-out into separate pages?
+- [ ] update [[JavaScript]] page based on these...
+- [ ] elaborate with code snippets
+
+### Variables / Data
+### Operations
+### Input / Output
+#### DOM Manipulation
+##### Get input from forms
+- get input via .value
+- 
+##### Get Elements to Update
+- getElementById
+- querySelector
+
+##### Update Elements
+- .textContent
+- .innerHTML
+- .append
+
+##### Create Elements
+- .createElement
+
+### Branching
+### Loopinp
+#### Types of Loops
+- For
+- While
+- ...
+#### Looping through arrays
+### Functions
+### Aggregation
+
 ## Topics
 ### Computer Basics
 - binary data, bits and bytes
@@ -19,22 +55,12 @@ aliases:
 - pseudocode
 - decomposition
 - iteration vs recursion
-### Universal Concepts
-- Variables / Data
-- Operations
-- Input / Output
-- Branching
-- Looping
-- Functions
-- Aggregation
-
 ## Resources
 - [Web standards - MDN](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Web_standards) articles
 - [[Khan Academy]] courses
 - [[CS50]] courses
 - [How To Think Like A Programmer](https://www.youtube.com/watch?v=azcrPFhaY9k) video
 - [Good Programmer Tips and Tricks](https://www.youtube.com/watch?v=v6hm27o_gLM) video
-- [7 Big Ideas in Programming](https://www.youtube.com/watch?v=y6dS-xX_Nt4) video
 - [100+ Computer Science Concepts Explained](https://www.youtube.com/watch?v=-uleG_Vecis&t=1s) video
 - [Blockly Games](https://blockly.games/?lang=en)
 
